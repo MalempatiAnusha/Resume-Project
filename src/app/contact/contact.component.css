@@ -1,0 +1,78 @@
+/* Contact Header Section */
+.contact-header {
+    background-image: url('/assets/contact.webp'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Adjust this height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .contact-header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  /* Contact Details Section */
+  .contact-details {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    margin-right: 10cap;
+    font-size: 1.2rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top:30px;
+  }
+  
+  .contact-item i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Example Icon Classes (You might need Font Awesome or similar) */
+  .icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+  }
+  
+  .icon-email {
+    background: url('/assets/email.jpg') no-repeat center center; /* Path to your email icon */
+    background-size: contain;
+  }
+  
+  .icon-phone {
+    background: url('/assets/phone.jpg') no-repeat center center; /* Path to your phone icon */
+    background-size: contain;
+  }
+  
+  .icon-location {
+    background: url('/assets/location.webp') no-repeat center center; /* Path to your location icon */
+    background-size: contain;
+  }
+  .back-button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+  
+  .back-button:hover {
+    background-color: #155a9b;
+  }
+  
+  

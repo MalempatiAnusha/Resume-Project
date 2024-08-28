@@ -1,0 +1,44 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .profile-photo {
+    width: 300px;  /* Increase width */
+    height: 300px; /* Increase height */
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-info {
+    max-width: 500px;
+    text-align: left;
+  }
+  .profile-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .profile-info p {
+    font-size: 1.2em;
+  }
+  .home-links {
+    margin-top: 30px;
+  }
+  .home-links .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  .home-links .btn:hover {
+    background-color: #0056b3;
+  }
+  
