@@ -1,0 +1,53 @@
+.achievements-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .achievement-section {
+    margin-bottom: 20px;
+  }
+  
+  .achievement-title {
+    font-size: 1.5em;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+  }
+  
+  .achievement-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .achievement-list li {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .back-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
